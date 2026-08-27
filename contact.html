@@ -1,75 +1,98 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Sungmi India - Marine &amp; Naval Accommodation Systems</title>
-<link href="style.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&amp;display=swap" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sungmi India</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header id="navbar">
-<div class="container header-container">
-<div class="logo">
-<a href="index.html" style="display: flex; align-items: center; gap: 10px;">
-<img alt="Sungmi Logo" height="40" src="assets/images/Logo.png"/>
-</a>
-</div>
-<nav style="display: flex; align-items: center; gap: 20px;">
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="products.html">Products</a></li>
-<li><a href="infrastructure.html">Infrastructure</a></li>
-<li><a href="certifications.html">Certifications</a></li>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/Logo.png" alt="Sungmi Logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="about.html">Solutions</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="infrastructure.html">Infrastructure</a></li>
+                    <li><a href="about.html">Management</a></li>
+                    <li><a href="certifications.html">Global Standards</a></li>
+                </ul>
+                <a href="contact.html" class="btn">Contact Us</a>
+            </nav>
+        </div>
+    </header>
 
-</ul>
-<a class="btn" href="contact.html" style="padding: 8px 15px; font-size: 0.9rem;">Get a Quote</a><div class="hamburger">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
-</div>
-</nav>
-</div>
-</header>
-<section class="contact section bg-light" id="contact">
-<div class="container">
-<h2 class="section-title">Contact Us</h2>
-<div class="contact-wrapper">
-<div class="contact-info">
-<h3>Sungmi India Private Limited</h3>
-<p><strong>Registered &amp; Manufacturing Office:</strong></p>
-<p>Plot no I-10, Verna Industrial Estate,<br/> Phase-IV, Survey No.259, Loutolim,<br/> Salcete, Goa 403722, India</p>
-<br/>
-<p><strong>Email:</strong> <a href="mailto:uday@sungmi.co.in">uday@sungmi.co.in</a></p>
-<p><strong>Phone:</strong> <a href="tel:+919075006156">+91 9075006156</a></p>
-</div>
-<div class="contact-form">
-<form id="contactForm">
-<div class="form-group">
-<input id="name" placeholder="Your Name" required="" type="text"/>
-</div>
-<div class="form-group">
-<input id="email" placeholder="Your Email" required="" type="email"/>
-</div>
-<div class="form-group">
-<input id="subject" placeholder="Subject" type="text"/>
-</div>
-<div class="form-group">
-<textarea id="message" placeholder="Your Message" required="" rows="5"></textarea>
-</div>
-<button class="btn" type="submit">Send Message</button>
-</form>
-</div>
-</div>
-</div>
-</section>
-<footer>
-<div class="container">
-<p>© 2026 Sungmi India Private Limited. All rights reserved.</p>
-</div>
-</footer>
-<script src="script.js"></script>
+    <main>
+        <section class="section">
+            <div class="container" style="max-width: 800px;">
+                <div class="text-center mb-64">
+                    <h1 class="h-xl mb-16" style="color: var(--primary-container);">Contact Us</h1>
+                    <p class="b-lg text-muted">Get in touch with our team for inquiries, quotes, and maritime solutions.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="grid-2">
+                        <div>
+                            <h3 class="h-sm mb-16">Sungmi India Private Limited</h3>
+                            <p class="text-muted mb-8"><strong>Registered & Manufacturing Office:</strong></p>
+                            <p class="text-muted mb-32">Plot no I-10, Verna Industrial Estate,<br> Phase-IV, Survey No.259, Loutolim,<br> Salcete, Goa 403722, India</p>
+                            
+                            <p class="text-muted mb-8"><strong>Email:</strong> <a href="mailto:uday@sungmi.co.in" style="color: var(--primary-container); font-weight: 500;">uday@sungmi.co.in</a></p>
+                            <p class="text-muted"><strong>Phone:</strong> <a href="tel:+919075006156" style="color: var(--primary-container); font-weight: 500;">+91 9075006156</a></p>
+                        </div>
+                        <div>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" placeholder="john@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" placeholder="Inquiry about Wall Panels">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" rows="5" placeholder="How can we help you?" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-orange" style="width: 100%;">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Sungmi India</h4>
+                    <p style="font-size: 14px; color: var(--border-gray);">Naval Engineering Excellence.</p>
+                </div>
+                <div class="footer-col">
+                    <ul style="display: flex; gap: 24px; flex-wrap: wrap;">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="certifications.html">Certifications</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sungmi India. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
